@@ -2679,7 +2679,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2c670fa3ed3f2b646a38e5361248f7c4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.58
+  m_Volume: 0.156
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3758,7 +3758,7 @@ MonoBehaviour:
   charaParent: {fileID: 2125320362}
   boubouleRenderer: {fileID: 1632290421}
   text: {fileID: 1177656157}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 1959415124}
 --- !u!114 &1296909828
 MonoBehaviour:
   m_ObjectHideFlags: 0
