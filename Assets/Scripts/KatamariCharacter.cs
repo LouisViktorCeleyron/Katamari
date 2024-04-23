@@ -9,4 +9,5 @@ public class KatamariCharacter : ScriptableObject
     public GameObject characterMesh;
     public Material materialForKatamari;
     public Sprite iconSprite;
+    public AudioClip voiceAnouncement;
 }

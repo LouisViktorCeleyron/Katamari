@@ -8,18 +8,19 @@ public class PrefabReader : MonoBehaviour
 {
     public KatamariCharacter associatedCharacter;
     public Image buttonIcon;
-    public TextMeshProUGUI text;
 
-    private Transform charaContainer;
-    private MeshRenderer meshFilterBouboule;
+    private TextMeshProUGUI _text;
+    private Transform _charaContainer;
+    private MeshRenderer _meshFilterBouboule;
+    private AudioSource _source;
 
-
-    public void Associate(KatamariCharacter chara, Transform charaContainer, MeshRenderer filterBouboule, TextMeshProUGUI text)
+    public void Associate(KatamariCharacter chara, Transform charaContainer, MeshRenderer filterBouboule, TextMeshProUGUI text, AudioSource source)
     {
         associatedCharacter = chara;
-        this.charaContainer = charaContainer;
-        this.meshFilterBouboule = filterBouboule;
-        this.text = text;
+        _charaContainer = charaContainer;
+        _meshFilterBouboule = filterBouboule;
+        _text = text;
+        _source = source;
         Init();
     }
     // Start is called before the first frame update
@@ -31,14 +32,20 @@ public class PrefabReader : MonoBehaviour
 
     public void SetCharandBouboule()
     {
-        for (int i = 0; i < charaContainer.childCount; i++)
+        for (int i = 0; i < _charaContainer.childCount; i++)
         {
-            var child = charaContainer.GetChild(i);
+            var child = _charaContainer.GetChild(i);
             Destroy(child.gameObject);
         }
-        Instantiate(associatedCharacter.characterMesh,charaContainer);
-        meshFilterBouboule.material = associatedCharacter.materialForKatamari;
-        text.text = associatedCharacter.charaName;
+        Instantiate(associatedCharacter.characterMesh,_charaContainer);
+        _meshFilterBouboule.material = associatedCharacter.materialForKatamari;
+        _text.text = associatedCharacter.charaName;
+        if(associatedCharacter.voiceAnouncement)
+        {
+            _source.Stop();
+            _source.clip = associatedCharacter.voiceAnouncement;
+            _source.Play();
+        }
     }
 
     
