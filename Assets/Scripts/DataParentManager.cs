@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DataParentManager : MonoBehaviour
 {
@@ -9,12 +10,13 @@ public class DataParentManager : MonoBehaviour
 
     public Transform charaParent;
     public MeshRenderer boubouleRenderer;
+    public TextMeshProUGUI text;
     // Start is called before the first frame update
     void Start()
     {
         for (int i = 0; i < charas.Count; i++)
         {
-            readers[i].Associate(charas[i],charaParent, boubouleRenderer);
+            readers[i].Associate(charas[i],charaParent, boubouleRenderer,text);
         }
     }
 
