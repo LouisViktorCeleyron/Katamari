@@ -15,4 +15,5 @@ MonoBehaviour:
   charaName: Nik
   characterMesh: {fileID: 919132149155446097, guid: 7f13a9180489ccf4482e038609171230, type: 3}
   materialForKatamari: {fileID: 2100000, guid: 793e5ee55b0222e4bb87ceaf1cfc0205, type: 2}
-  iconSprite: {fileID: 21300000, guid: 55035b0777ddf6b4dba988b14b3e02a5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 77a214aba3575cf4d8e75a4f8ff3045f, type: 3}
+  voiceAnouncement: {fileID: 8300000, guid: c4bc7d04a18359948be506433031b533, type: 3}

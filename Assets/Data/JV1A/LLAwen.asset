@@ -15,4 +15,5 @@ MonoBehaviour:
   charaName: Francis
   characterMesh: {fileID: 919132149155446097, guid: 8c6dc2bb4e0108645a0dee33c13b08a5, type: 3}
   materialForKatamari: {fileID: 2100000, guid: 793e5ee55b0222e4bb87ceaf1cfc0205, type: 2}
-  iconSprite: {fileID: 21300000, guid: 55035b0777ddf6b4dba988b14b3e02a5, type: 3}
+  iconSprite: {fileID: 21300000, guid: 86ca443721ee064448cda41f4ab4324c, type: 3}
+  voiceAnouncement: {fileID: 0}

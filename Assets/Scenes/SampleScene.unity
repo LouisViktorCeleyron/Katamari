@@ -3705,6 +3705,7 @@ MonoBehaviour:
   - {fileID: 1768698059}
   - {fileID: 1774200616}
   - {fileID: 1216640750}
+  - {fileID: 2044669555}
   - {fileID: 1439597929}
   - {fileID: 572469179}
   - {fileID: 420376777}
@@ -3754,11 +3755,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 297fed2a1d60ec542b4e0246ea8e9749, type: 2}
   - {fileID: 11400000, guid: b0a3a174afc37bb458ab5242596dcf73, type: 2}
   - {fileID: 11400000, guid: 448531141274c1c42b877de1889e2cfd, type: 2}
+  - {fileID: 11400000, guid: 178a134b4e2e194408bf9c29cd72e190, type: 2}
   - {fileID: 11400000, guid: 14c0f1a61424a7d46876b0a4b52d10eb, type: 2}
   charaParent: {fileID: 2125320362}
   boubouleRenderer: {fileID: 1632290421}
   text: {fileID: 1177656157}
   audioSource: {fileID: 1959415124}
+  defaultAudioClip: {fileID: 8300000, guid: eedd39dd9a034c34eb3bc08ac8c9c6f3, type: 3}
 --- !u!114 &1296909828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5491,6 +5494,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1959415125}
   - component: {fileID: 1959415124}
+  - component: {fileID: 1959415126}
+  - component: {fileID: 1959415127}
   m_Layer: 0
   m_Name: AudioReader
   m_TagString: Untagged
@@ -5508,10 +5513,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 88ce16111a21eb24f869fd37f254d708, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.139
+  m_Pitch: 1.5
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -5584,7 +5589,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 1.1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5609,6 +5614,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!164 &1959415126
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959415123}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: 0
+  m_RoomHF: 0
+  m_DecayTime: 1
+  m_DecayHFRatio: 0.5
+  m_ReflectionsLevel: -10000
+  m_ReverbLevel: 0
+  m_ReverbDelay: 0.04
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 27
+--- !u!170 &1959415127
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959415123}
+  m_Enabled: 1
+  m_DistortionLevel: 0.8
 --- !u!1001 &1960609905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5732,7 +5769,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1594096770865427458, guid: 06551fee4da3a5845a27dc8c40245af3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3643306881738218176, guid: 06551fee4da3a5845a27dc8c40245af3, type: 3}
       propertyPath: m_Name
@@ -5740,7 +5777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5432387113172791818, guid: 06551fee4da3a5845a27dc8c40245af3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5933274986405268419, guid: 06551fee4da3a5845a27dc8c40245af3, type: 3}
       propertyPath: m_Pivot.x
@@ -5832,6 +5869,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5933274986405268419, guid: 06551fee4da3a5845a27dc8c40245af3, type: 3}
   m_PrefabInstance: {fileID: 2044669553}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2044669555 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4682927482789957609, guid: 06551fee4da3a5845a27dc8c40245af3, type: 3}
+  m_PrefabInstance: {fileID: 2044669553}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11351ba86d724df4eb279b2842d02765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2054518473
 PrefabInstance:
   m_ObjectHideFlags: 0
