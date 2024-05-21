@@ -15,5 +15,5 @@ MonoBehaviour:
   charaName: "Bhr\xFC\xFCng"
   characterMesh: {fileID: 919132149155446097, guid: 6002f5630ee8828469028fb93bf383b9, type: 3}
   materialForKatamari: {fileID: 2100000, guid: fb09d23d89120a241a9ca4501c731b48, type: 2}
-  iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
-  voiceAnouncement: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: 41cea3b0e91509444956860ff2dd3332, type: 3}
+  voiceAnouncement: {fileID: 8300000, guid: e0dd346f2c503ed41990681175e6412e, type: 3}

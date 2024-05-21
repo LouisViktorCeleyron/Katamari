@@ -16,4 +16,4 @@ MonoBehaviour:
   characterMesh: {fileID: 919132149155446097, guid: 5ea49a7bf10ea4d4a8cb2863b67ae2ba, type: 3}
   materialForKatamari: {fileID: 2100000, guid: fb09d23d89120a241a9ca4501c731b48, type: 2}
   iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
-  voiceAnouncement: {fileID: 8300000, guid: 23e0988b652d9f040a909b87e926e424, type: 3}
+  voiceAnouncement: {fileID: 8300000, guid: 21a4f1ca1b1d5ad4982cb3fb4740712f, type: 3}

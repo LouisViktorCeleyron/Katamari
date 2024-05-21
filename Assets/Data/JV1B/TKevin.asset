@@ -15,5 +15,5 @@ MonoBehaviour:
   charaName: Bicornu
   characterMesh: {fileID: 919132149155446097, guid: 9f2ab82941ebb0c49bf41f81424d3674, type: 3}
   materialForKatamari: {fileID: 2100000, guid: fb09d23d89120a241a9ca4501c731b48, type: 2}
-  iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
-  voiceAnouncement: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: c3e35ccbcdbb8f84a877d420051859d4, type: 3}
+  voiceAnouncement: {fileID: 8300000, guid: dc47063ba51cfc8429b0e8a8711c3369, type: 3}

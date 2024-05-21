@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LRMaxime
   m_EditorClassIdentifier: 
   charaName: Lotici
-  characterMesh: {fileID: 6462188004411622107, guid: 975936a1aaab68546858654bdb50e315, type: 3}
+  characterMesh: {fileID: 919132149155446097, guid: effe7846176e72942bce1b01702a97f6, type: 3}
   materialForKatamari: {fileID: 2100000, guid: fb09d23d89120a241a9ca4501c731b48, type: 2}
   iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
-  voiceAnouncement: {fileID: 0}
+  voiceAnouncement: {fileID: 8300000, guid: faee4c4790f9a174aa194e81c263b553, type: 3}
