@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DMathys
   m_EditorClassIdentifier: 
   charaName: Isamu
-  characterMesh: {fileID: 919132149155446097, guid: ebabdca3b16dfe644ba0138cf8d3f6c4, type: 3}
+  characterMesh: {fileID: 919132149155446097, guid: 5ad1d9a4e80685e4e9f96e1527ab76a8, type: 3}
   materialForKatamari: {fileID: 2100000, guid: fb09d23d89120a241a9ca4501c731b48, type: 2}
-  iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
+  iconSprite: {fileID: 21300000, guid: 3ede3879d6a84cd4981c4129f0a45619, type: 3}
   voiceAnouncement: {fileID: 0}
