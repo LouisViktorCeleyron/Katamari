@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BOTTI_Morgane
   m_EditorClassIdentifier: 
   charaName: Stellar
-  characterMesh: {fileID: 919132149155446097, guid: 517c8a7d3d54ec34e9ee082733846bc3, type: 3}
-  materialForKatamari: {fileID: 2100000, guid: ec18390903442b34a9a8413d00c44e08, type: 2}
-  iconSprite: {fileID: 21300000, guid: f036b2a82bc78dc4595df4e4fbcc991f, type: 3}
-  voiceAnouncement: {fileID: 8300000, guid: 0e569c2d7f343cd469720e9654feaebe, type: 3}
+  characterMesh: {fileID: 0}
+  materialForKatamari: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
+  voiceAnouncement: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GUILLOIS_Nicolas
   m_EditorClassIdentifier: 
   charaName: Francis
-  characterMesh: {fileID: 919132149155446097, guid: 8c6dc2bb4e0108645a0dee33c13b08a5, type: 3}
-  materialForKatamari: {fileID: 2100000, guid: 319f306ba5393e84f9ed70059bf68f91, type: 2}
-  iconSprite: {fileID: 21300000, guid: 86ca443721ee064448cda41f4ab4324c, type: 3}
+  characterMesh: {fileID: 0}
+  materialForKatamari: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
   voiceAnouncement: {fileID: 0}
