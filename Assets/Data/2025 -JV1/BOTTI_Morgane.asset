@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0343d7786bff964d861856c8de9688b, type: 3}
+  m_Name: BOTTI_Morgane
+  m_EditorClassIdentifier: 
+  charaName: Stellar
+  characterMesh: {fileID: 919132149155446097, guid: 517c8a7d3d54ec34e9ee082733846bc3, type: 3}
+  materialForKatamari: {fileID: 2100000, guid: ec18390903442b34a9a8413d00c44e08, type: 2}
+  iconSprite: {fileID: 21300000, guid: f036b2a82bc78dc4595df4e4fbcc991f, type: 3}
+  voiceAnouncement: {fileID: 8300000, guid: 0e569c2d7f343cd469720e9654feaebe, type: 3}
