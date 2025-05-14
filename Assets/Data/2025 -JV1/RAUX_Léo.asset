@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0343d7786bff964d861856c8de9688b, type: 3}
   m_Name: "RAUX_L\xE9o"
   m_EditorClassIdentifier: 
-  charaName: Pah-Tryq
-  characterMesh: {fileID: 0}
+  charaName: RA
+  characterMesh: {fileID: 919132149155446097, guid: 6242dcdf5a7842f4cba865bc1d50f75d, type: 3}
   materialForKatamari: {fileID: 0}
   iconSprite: {fileID: 21300000, guid: 7aa555d3fb923a74895954489a79adde, type: 3}
   voiceAnouncement: {fileID: 0}
